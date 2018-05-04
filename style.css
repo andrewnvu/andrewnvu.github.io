@@ -1,0 +1,106 @@
+/*CSS Document */
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+
+body{
+  font-family:Product Sans;
+  padding:0;
+  margin:0;
+  overflow-x:hidden;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/*Header*/
+header{
+  padding-top: 15px;
+}
+
+header a{
+  color: #000000;
+  text-decoration:none;
+  font-size:14px;
+}
+
+
+header li{
+  float:right;
+  display:inline;
+  padding: 0 30px 0 20px;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+.searchbox{
+  width:100%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top:20px;
+}
+
+.container{
+  margin:auto;
+  width:100%;
+  padding-top:250px;
+}
+
+
+h1{
+  width:100%;
+  margin:auto;
+  font-size: 100px;
+  letter-spacing: -15px;
+  text-align:center;
+}
+
+
+
+input[type="text"]{
+  padding:4px;
+  height:25px;
+  width:500px;
+  font-size:18px;
+}
+
+.mybuttons{
+  padding-top: 30px;
+  text-align:center;
+  width:100%;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding:10px;
+  padding-left: 30px;
+  margin-top:10px;
+  overflow:hidden;
+  background-color:#f2f2f2;
+  float:left;
+  border-top:#686868 1px solid;
+}
+
+footer li{
+    display:inline;
+}
+
+footer a{
+  text-decoration: none;
+  color:#686868;
+  font-size:14px;
+}
+footer a:hover{
+  text-decoration: underline;
+}
