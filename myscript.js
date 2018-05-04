@@ -1,7 +1,9 @@
 
+
+/*My typewriter effect*/
 var i = 0;
 var txt = 'Hi I\'m Andrew... and welcome to my page!';
-var speed = 60;
+var speed = 70;
 //document.getElementById("searchInput").onload = function() {writeText()};
 
 function writeText(callback){
